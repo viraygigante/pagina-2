@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #f0f0f0;
+}
+
+ p,li {
+        width: 80%;
+        margin: 10px auto;
+        font-family: 'Arial', sans-serif;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #666;
+    }
+    h1 {
+        font-family: 'Impact', sans-serif;
+        font-size: 48px;
+        color: #333;
+        text-align: center;
+    }
+    h2 {
+        font-family: 'Impact', sans-serif;
+        font-size: 28px;
+        color: #333;
+        text-align: center;
+    }
+    h3 {
+        font-family: 'Impact', sans-serif;
+        font-size: 20px;
+        color: #333;
+        text-align: center;
+    }
+    .Texto_pequeño{
+        text-align: center;
+    }
+
+    .img_Titulo{
+        width:1500px;
+        height:500px;
+    }
+    .carousel {
+        width:300px;
+        height:169px;
+      }
+
+
+.icon-link {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    color: #007bff; 
+    font-weight: bold; 
+}
+
+
+.icon-link-hover:hover {
+    color: #0056b3; 
+    transform: translateY(-2px); 
+}
+
+
+.icon-link svg {
+    width: 1.5em; 
+    height: 1.5em; 
+    margin-right: 0.5em; 
+    fill: currentColor;
+}
+
+
+.card-container {
+    display: flex;          
+    flex-wrap: wrap;         
+    justify-content: center;  
+    gap: 20px;                
+}
